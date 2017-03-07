@@ -1,2 +1,18 @@
+img {
+  width: 120px;
+  text-align: center; }
+
+.hero img {
+  border: .2em solid grey;
+  border-width: .4rem;
+  padding: 8px;
+  box-sizing: border-box;
+  margin: 119px 259px 300px 259px; }
+
+.hero h1 {
+  text-align: center; }
+
+h2 {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
