@@ -1,7 +1,19 @@
 h2 {
   font-size: 1rem;
-  margin: 0 auto;
+  margin: 10% 20%;
   text-align: center; }
+
+.slider img {
+  width: 100%;
+  box-sizing: border-box;
+  border: solid #000 .1rem;
+  position: relative; }
+
+.slider::before {
+  content: " ";
+  width: 0;
+  position: absolute;
+  top: 10px; }
 
 .container-element {
   width: calc(100% - 40px);
