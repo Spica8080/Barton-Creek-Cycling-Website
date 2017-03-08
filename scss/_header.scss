@@ -1,15 +1,22 @@
+.headey {
+    background-image: url("bikes.jpg");
+    background: gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
 img{
-  width: 120px;
+  max-width: 30%;
   text-align: center;
+  margin: 25% 35% 40% 35%;
 }
-.hero img{
-border: .2em solid grey;
-border-width: .4rem;
-padding: 8px;
+.headey img{
+border:  solid gray;
+border-width: .3rem;
+padding: 3% 9%;
 box-sizing: border-box;
-margin: 119px 259px 300px 259px
 }
-.hero h1{
+.headey h1{
   text-align: center;
 }
 h2{
