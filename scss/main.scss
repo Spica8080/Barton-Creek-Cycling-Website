@@ -1,3 +1,6 @@
+
+@import "header";
+
 @import "node_modules/bourbon/app/assets/stylesheets/bourbon.scss";
 @import "node_modules/bourbon-neat/core/neat.scss";
 @import "main-slider.scss";
@@ -6,8 +9,3 @@
   @include grid-container;
   // @include grid-visual;
 }
-
-
-// img {
-//   width: 50%;
-// }
