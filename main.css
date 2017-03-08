@@ -6,7 +6,9 @@ h2 {
 h3 {
   font-size: 1rem;
   margin: 10% 10%;
-  text-align: center; }
+  text-align: center;
+  clear: both;
+  padding-top: 10%; }
 
 img {
   width: calc(33.33333% - 26.66667px);
@@ -27,6 +29,10 @@ img {
     border: solid #000 .1rem; }
   .hidden {
     display: none; } }
+
+@media (min-width: 481) {
+  h3 {
+    font-size: 3rem; } }
 
 .container-element::after {
   clear: both;
