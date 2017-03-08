@@ -1,7 +1,72 @@
+<<<<<<< HEAD
 .heady {
   background-image: url("bikes.jpg"); }
+=======
+
+.headey {
+  background-image: url("bikes.jpg");
+  background: gray;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block; }
 
 img {
-  width: 50%; }
+  max-width: 30%;
+  text-align: center;
+  margin: 25% 35% 40% 35%; }
+
+.headey img {
+  border: solid gray;
+  border-width: .3rem;
+  padding: 3% 9%;
+  box-sizing: border-box; }
+
+.headey h1 {
+  text-align: center; }
+
+h2 {
+  text-align: center; }
+
+h2 {
+  font-size: 1rem;
+  margin: 10% 20%;
+  text-align: center; }
+
+h3 {
+  font-size: 1rem;
+  margin: 10% 10%;
+  text-align: center;
+  clear: both;
+  padding-top: 10%; }
+
+img {
+  width: calc(33.33333% - 26.66667px);
+  float: left;
+  margin-left: 20px; }
+
+.container-element {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px; }
+
+@media (max-width: 480px) {
+  h3 {
+    display: none; }
+  .slider img {
+    width: 100%;
+    box-sizing: border-box;
+    border: solid #000 .1rem; }
+  .hidden {
+    display: none; } }
+>>>>>>> d6f6903005e8e81e61fe0acb9b8b4c765b4971a4
+
+@media (min-width: 481) {
+  h3 {
+    font-size: 3rem; } }
+
+.container-element::after {
+  clear: both;
+  content: "";
+  display: block; }
 
 /*# sourceMappingURL=main.css.map */

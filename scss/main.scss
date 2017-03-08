@@ -3,8 +3,14 @@
 
 
 
+<<<<<<< HEAD
 
 
 img {
   width: 50%;
+=======
+.container-element {
+  @include grid-container;
+  // @include grid-visual;
+>>>>>>> d6f6903005e8e81e61fe0acb9b8b4c765b4971a4
 }
