@@ -1,14 +1,8 @@
-
-@import "header";
 @import "back";
-@import "node_modules/bourbon/app/assets/stylesheets/bourbon.scss";
-@import "node_modules/bourbon-neat/core/neat.scss";
-@import "main-slider.scss";
 
-.container-element {
-  @include grid-container;
-  @include grid-visual;
-}
+
+
+
 
 
 img {
