@@ -4,10 +4,10 @@
 
 .container-element {
   @include grid-container;
-  @include grid-visual;
+  // @include grid-visual;
 }
 
 
-img {
-  width: 50%;
-}
+// img {
+//   width: 50%;
+// }

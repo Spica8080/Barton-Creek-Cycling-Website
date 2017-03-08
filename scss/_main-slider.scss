@@ -6,21 +6,39 @@ h2 {
   text-align: center;
 }
 
-.slider img {
-  width: 100%;
-  box-sizing: border-box;
-  border: solid #000 .1rem;
-  position: relative;
+h3 {
+  font-size: 1rem;
+  margin: 10% 10%;
+  text-align: center;
 }
 
-.slider::before {
-  content: " ";
-  width: 0;
-
-  position: absolute;
-  top: 10px;
+img {
+  // width: 100%;
+  @include grid-column(4);
 }
+
 
 .container-element {
   @include grid-column (12);
+}
+
+@media (max-width: 480px) {
+  h3 {
+    display: none;
+  }
+
+  .slider img {
+      width: 100%;
+      box-sizing: border-box;
+      border: solid #000 .1rem;
+    }
+
+  .hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 481) {
+
+  
 }
