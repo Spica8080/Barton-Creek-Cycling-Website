@@ -40,9 +40,13 @@ img {
   }
 }
 
-@media (min-width: 481) {
+body {
+  background: blue;
+}
+
+@media (min-width: 481px) {
  h3 {
-   font-size: 3rem;
+   font-size: 5rem;
  }
 
 }
